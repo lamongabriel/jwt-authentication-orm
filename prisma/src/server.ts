@@ -9,6 +9,7 @@ const server = async () => {
   const app = express()
 
   await prisma.$connect()
+  console.log('📦 Connected do Prisma!')
 
   app.use(express.json())
   app.use(appRoutes)
