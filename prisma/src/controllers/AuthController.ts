@@ -3,6 +3,9 @@ import { z, ZodError } from 'zod'
 import { prisma } from '../database/prisma'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 class AuthController {
   async authenticate (req: Request, res: Response) {
