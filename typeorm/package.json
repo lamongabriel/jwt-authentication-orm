@@ -1,0 +1,36 @@
+{
+  "name": "typeorm-api",
+  "version": "1.0.0",
+  "description": "An authentication API made with PostgreSQL, express, and TypeORM",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "ts-node-dev --files src/server.ts",
+    "typeorm": "typeorm-ts-node-esm"
+  },
+  "author": "lamongabriel",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.10",
+    "zod": "^3.19.1"
+  }
+}
